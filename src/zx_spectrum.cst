@@ -1,0 +1,53 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.9 Beta-4 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Device Version: C
+//Created Time: Mon 01 08 13:33:54 2024
+
+IO_LOC "O_tmds_clk_p" G16,H15;
+IO_PORT "O_tmds_clk_p" PULL_MODE=NONE DRIVE=3.5 BANK_VCCIO=2.5;
+IO_LOC "O_tmds_data_p[0]" H14,H16;
+IO_PORT "O_tmds_data_p[0]" PULL_MODE=NONE DRIVE=3.5 BANK_VCCIO=2.5;
+IO_LOC "O_tmds_data_p[1]" J15,K16;
+IO_PORT "O_tmds_data_p[1]" PULL_MODE=NONE DRIVE=3.5 BANK_VCCIO=2.5;
+IO_LOC "O_tmds_data_p[2]" K14,K15;
+IO_PORT "O_tmds_data_p[2]" PULL_MODE=NONE DRIVE=3.5 BANK_VCCIO=2.5;
+IO_LOC "kb2_o[7]" B11;
+IO_PORT "kb2_o[7]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[6]" A11;
+IO_PORT "kb2_o[6]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[5]" B12;
+IO_PORT "kb2_o[5]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[4]" A14;
+IO_PORT "kb2_o[4]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[3]" B14;
+IO_PORT "kb2_o[3]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[2]" A15;
+IO_PORT "kb2_o[2]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[1]" B13;
+IO_PORT "kb2_o[1]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb2_o[0]" C12;
+IO_PORT "kb2_o[0]" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_PORT "o_dbg_2" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_PORT "o_dbg_1" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "kb1_i[4]" T8;
+IO_PORT "kb1_i[4]" PULL_MODE=DOWN BANK_VCCIO=1.8;
+IO_LOC "kb1_i[3]" R8;
+IO_PORT "kb1_i[3]" PULL_MODE=DOWN BANK_VCCIO=1.8;
+IO_LOC "kb1_i[2]" T7;
+IO_PORT "kb1_i[2]" PULL_MODE=DOWN BANK_VCCIO=1.8;
+IO_LOC "kb1_i[1]" T6;
+IO_PORT "kb1_i[1]" PULL_MODE=DOWN BANK_VCCIO=1.8;
+IO_LOC "kb1_i[0]" P6;
+IO_PORT "kb1_i[0]" PULL_MODE=DOWN BANK_VCCIO=1.8;
+IO_LOC "zx_rstn_i" T3;
+IO_PORT "zx_rstn_i" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "rstn_i" T10;
+IO_PORT "rstn_i" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "clk_i" H11;
+IO_PORT "clk_i" IO_TYPE=LVCMOS25 PULL_MODE=UP BANK_VCCIO=2.5;
+IO_LOC "a_key_i" T2;
+IO_PORT "a_key_i" PULL_MODE=UP BANK_VCCIO=1.8;

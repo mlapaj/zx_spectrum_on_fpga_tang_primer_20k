@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="/home/cod3r/Data/Gowin/IDE/ipcore/DVI_TX/data/dvi_tx_top.v" type="verilog"/>
+        <File path="/home/cod3r/Data/Gowin/IDE/ipcore/DVI_TX/data/rgb2dvi.vp" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="dsp_balance" value="1"/>
+        <Option type="include_path" value="/home/cod3r/Data/Gowin/IDE/ipcore/DVI_TX/data"/>
+        <Option type="include_path" value="/home/cod3r/Data/vhdl_playground/primer20k/zx_spectrum/src/dvi_tx/temp/DviTx"/>
+        <Option type="output_file" value="dvi_tx.vg"/>
+        <Option type="output_template" value="dvi_tx_tmp.vhd"/>
+        <Option type="output_vhdl_file" value="dvi_tx.vhg"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>
